@@ -6,7 +6,7 @@ function Footer(){
             <li><a href="#about">~ABOUT</a></li>
             <li><a href="#build">~BUILD</a></li>
             <li><a href="#contact">~CONTACT</a></li>
-            <li><a href="https://github.com/Sandy-1711/Portfolio">~SOURCE CODE</a></li>
+            <li><a href="https://github.com/Sandy-1711/My-Portfolio">~SOURCE CODE</a></li>
         </ul>
         <hr/>
         <div>
