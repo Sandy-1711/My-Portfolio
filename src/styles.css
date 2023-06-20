@@ -166,7 +166,7 @@ span {
 
 .section3 {
     position: relative;
-    height: 100dvh;
+    min-height: 100dvh;
     top: 105dvh;
     background-color: #0f1922;
     color: var(--white);
@@ -233,12 +233,13 @@ span {
 }
 
 .projectsarea {
-    height: 30%;
+    height:fit-content;
     width: 50%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    padding-bottom:5rem;
 
 }
 
@@ -270,8 +271,8 @@ span {
 
     position: absolute;
     opacity: 0;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 30px;   
 }
 
 .projectcard:hover>.buttonlink {
@@ -282,9 +283,20 @@ span {
     box-shadow: 0px 0px 5px var(--blueviolet);
 }
 
-button {
-
+.projectcard button{
+    background: white;
+}
+.projectcard button a{
+    color: #000;
+}
+.projectcard button:hover{
     background: #0f1922;
+}
+.projectcard button:hover a{
+    color: white;
+}
+button {
+    background:#0f1922;
     padding: 5px 10px;
     border-radius: 8px;
     margin: 5px;
@@ -303,7 +315,7 @@ button:hover {
 }
 
 button:hover a {
-    color: #000;
+    color: black;
 }
 
 .section4 {
@@ -522,6 +534,8 @@ footer div span {
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
+
+        padding-bottom: 1rem;
     
     }
     
@@ -800,6 +814,7 @@ footer div span {
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
+        padding-bottom: 0rem;
     
     }
     

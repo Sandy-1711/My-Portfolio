@@ -23,10 +23,10 @@ function Section3() {
             <div className="projectcard reveal fade-right" key={element.id}>
         
             <h2>{element.title}</h2>
-            <p>{element.desc}</p>
+            {element.desc && <p>{element.desc}</p>}
             <div className="buttonlink">
 
-            <button><a href={element.link} rel="noreferrer" target="_blank">OPEN</a></button>
+            {element.link && <button><a href={element.link} rel="noreferrer" target="_blank">OPEN</a></button>}
             <button><a href={element.code} rel="noreferrer" target="_blank">CODE</a></button>
             </div>
             
