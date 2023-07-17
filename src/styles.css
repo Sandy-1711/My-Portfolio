@@ -166,7 +166,8 @@ span {
 
 .section3 {
     position: relative;
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
+    height: max-content;
     top: 105dvh;
     background-color: #0f1922;
     color: var(--white);
@@ -233,13 +234,13 @@ span {
 }
 
 .projectsarea {
-    height:fit-content;
+    height:max-content;
     width: 50%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    padding-bottom:5rem;
+    padding-bottom:8rem;
 
 }
 
