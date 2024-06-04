@@ -2,7 +2,7 @@ const list=[
     {
         id:1,
         title:"Web Accuracy",
-        link:"https://web-accuracy.netlify.app/",
+        link:"https://www.webaccuracy.com/",
         code:"https://github.com/sandy-1711/wa",
         desc:"Multi-page NextJS Website,Used technologies like gsap and lenin scroll to make beautiful frontend applications.",
     },
